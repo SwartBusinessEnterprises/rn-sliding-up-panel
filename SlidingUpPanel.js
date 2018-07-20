@@ -312,7 +312,7 @@ class SlidingUpPanel extends React.Component {
 
   render() {
     if (!this.state.visible) {
-      return null
+      //return null
     }
 
     return [this._renderBackdrop(), this._renderContent()]
